@@ -1,60 +1,67 @@
-<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>星の軌跡</title>
+  <title>土器ショップ</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- フロートメニューボタン -->
-  <div class="menu-button" id="menuButton">メニュー</div>
-
-  <!-- メニュー -->
-  <nav class="floating-menu" id="floatingMenu">
+  <!-- サイト上部のメニュー -->
+  <nav class="main-menu">
     <ul>
-      <li><a href="#intro">はじめに</a></li>
-      <li><a href="#history">これまで</a></li>
-      <li><a href="#future">これから</a></li>
+      <li><a href="#usage">ご利用</a></li>
+      <li><a href="#new">新商品</a></li>
+      <li><a href="#ranking">ランキング</a></li>
+      <li class="dropdown">
+        <span>土器</span>
+        <ul class="dropdown-content">
+          <li><a href="#standard">通常土器</a></li>
+          <li><a href="#premium">高級土器</a></li>
+          <li><a href="#limited">プレミア土器</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
 
-  <!-- コンテンツ -->
-  <section class="section" id="intro">
-    <h2>はじめに</h2>
-    <p>ここに「はじめに」の内容が入ります。</p>
-  </section>
-
-  <section class="section" id="history">
-    <h2>これまで</h2>
-    <p>ここに「これまで」の内容が入ります。</p>
-  </section>
-
-  <section class="section" id="future">
-    <h2>これから</h2>
-    <p>ここに「これから」の内容が入ります。</p>
-  </section>
-
-  <!-- スクロールして表示されるタイトル -->
-  <section class="stars-section">
-    <h1 class="stars-title">星の軌跡</h1>
-  </section>
-
-  <!-- 星座の紹介 -->
-  <section class="constellations-section">
-    <div class="constellation">
-      <h2>白鳥座</h2>
-      <p>白鳥座はギリシャ神話の白鳥に由来しています…</p>
+  <!-- 画像スライダー -->
+  <section class="image-slider">
+    <div class="slide" id="slide1">
+      <a href="product1.html"><img src="img1.jpg" alt="商品1"></a>
     </div>
-
-    <div class="constellation">
-      <h2>オリオン座</h2>
-      <p>オリオン座は偉大な狩人オリオンに関連しています…</p>
+    <div class="slide" id="slide2">
+      <a href="product2.html"><img src="img2.jpg" alt="商品2"></a>
     </div>
+    <div class="slide" id="slide3">
+      <a href="product3.html"><img src="img3.jpg" alt="商品3"></a>
+    </div>
+    <div class="slide" id="slide4">
+      <a href="product4.html"><img src="img4.jpg" alt="商品4"></a>
+    </div>
+  </section>
 
-    <div class="constellation">
-      <h2>蟹座</h2>
-      <p>蟹座はヘラクレスの十二の功業に関する神話に登場します…</p>
+  <!-- 新商品のセクション -->
+  <section id="new" class="products-section">
+    <h2>新商品</h2>
+    <div class="product-grid">
+      <div class="product">新商品1</div>
+      <div class="product">新商品2</div>
+      <div class="product">新商品3</div>
+      <div class="product">新商品4</div>
+      <div class="product">新商品5</div>
+      <div class="product">新商品6</div>
+    </div>
+  </section>
+
+  <!-- ランキングのセクション -->
+  <section id="ranking" class="products-section">
+    <h2>ランキング</h2>
+    <div class="product-grid">
+      <div class="product">1位 商品A</div>
+      <div class="product">2位 商品B</div>
+      <div class="product">3位 商品C</div>
+      <div class="product">4位 商品D</div>
+      <div class="product">5位 商品E</div>
+      <div class="product">6位 商品F</div>
     </div>
   </section>
 
