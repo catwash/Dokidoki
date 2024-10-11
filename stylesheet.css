@@ -128,7 +128,7 @@ header {
 
 /* メニューアイテムのスタイル */
 .menu-items {
-  display: flex;
+  display: none;
   position: absolute;
   bottom: 60px;
   right: 0;
