@@ -157,3 +157,8 @@ header {
   border-bottom: none;
 }
 
+/* 開かないときのため
+.menu-items {
+  display: none;
+}
+
