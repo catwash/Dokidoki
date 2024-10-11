@@ -130,7 +130,6 @@ header {
 .menu-items {
   display: flex;
   flex-direction: row; /* 行方向に配置 */
-  justify-content: space-around; /* 各メニュー項目を均等に配置 */
   position: absolute;
   bottom: 60px;
   right: 0;
