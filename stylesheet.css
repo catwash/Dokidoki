@@ -129,7 +129,6 @@ header {
 /* メニューアイテムのスタイル */
 .menu-items {
   display: flex;
-  flex-direction: row; /* 行方向に配置 */
   position: absolute;
   bottom: 60px;
   right: 0;
