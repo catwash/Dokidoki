@@ -105,3 +105,55 @@ header {
   text-align: center;
   border-radius: 10px;
 }
+
+/* フロートメニュー全体のスタイル */
+.float-menu {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+/* メニューボタンのスタイル */
+.menu-btn {
+  background-color: #f76c6c;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* メニューアイテムのスタイル */
+.menu-items {
+  display: none;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.menu-items a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-items a:hover {
+  background-color: #f76c6c;
+  color: white;
+}
+
+/* 最後のメニュー項目にはボーダーを表示しない */
+.menu-items a:last-child {
+  border-bottom: none;
+}
+
